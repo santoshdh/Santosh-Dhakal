@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Santosh Dhakal - Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        .about, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            width: 100%;
+            max-width: 300px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .portfolio-item h3 {
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact form button {
+            background-color: #333;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Santosh Dhakal</h1>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am Santosh Dhakal, born in 2007 in Baglung Hille, Nepal. I completed my SEE in my village and later moved to Gaindakot to pursue further education. After finishing my Plus Two in Computer Science, I developed a strong interest in the internet and technology. I am passionate about learning new advancements in the tech field and exploring the vast potential of the digital world. My journey is just beginning, and I look forward to new opportunities and challenges that will help me grow both academically and professionally..</p>
+        <p>Check out my portfolio below to see some of my recent work!</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-gallery">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <img src="portfolio1.jpg" alt="Portfolio 1">
+                <h3>Project One</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <img src="portfolio2.jpg" alt="Portfolio 2">
+                <h3>Project Two</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item">
+                <img src="portfolio3.jpg" alt="Portfolio 3">
+                <h3>Project Three</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="get">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2020 Santosh Dhakal. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/santosh.dhakal.568847" target="_blank">facebook</a>
+            <a href="https://instagram.com/santosh_dh55" target="_blank">instagram</a>
+            <a href="https://github.com/santoshdh" target="_blank">GitHub</a>
+            <a href="https://x.com/dhakal_san89622" target="_blank">X</a>
+           
+        </div>
+    </footer>
+
+</body>
+
+</html>
